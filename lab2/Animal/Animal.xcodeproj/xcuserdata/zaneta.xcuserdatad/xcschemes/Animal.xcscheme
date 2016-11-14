@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E55A6301DC7C08900E559E3"
-               BuildableName = "lab2"
-               BlueprintName = "lab2"
-               ReferencedContainer = "container:lab2.xcodeproj">
+               BlueprintIdentifier = "1EF134801DC9557A00FF7182"
+               BuildableName = "libAnimal.dylib"
+               BlueprintName = "Animal"
+               ReferencedContainer = "container:Animal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E55A6301DC7C08900E559E3"
-            BuildableName = "lab2"
-            BlueprintName = "lab2"
-            ReferencedContainer = "container:lab2.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E55A6301DC7C08900E559E3"
-            BuildableName = "lab2"
-            BlueprintName = "lab2"
-            ReferencedContainer = "container:lab2.xcodeproj">
+            BlueprintIdentifier = "1EF134801DC9557A00FF7182"
+            BuildableName = "libAnimal.dylib"
+            BlueprintName = "Animal"
+            ReferencedContainer = "container:Animal.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E55A6301DC7C08900E559E3"
-            BuildableName = "lab2"
-            BlueprintName = "lab2"
-            ReferencedContainer = "container:lab2.xcodeproj">
+            BlueprintIdentifier = "1EF134801DC9557A00FF7182"
+            BuildableName = "libAnimal.dylib"
+            BlueprintName = "Animal"
+            ReferencedContainer = "container:Animal.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

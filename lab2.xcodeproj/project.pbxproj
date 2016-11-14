@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1E55A6351DC7C08900E559E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A6341DC7C08900E559E3 /* main.cpp */; };
+		1E55A63D1DC7C0DB00E559E3 /* Stado.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A63B1DC7C0DB00E559E3 /* Stado.cpp */; };
+		1EF134931DCA1E8200FF7182 /* Zwierze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF134911DCA1E8200FF7182 /* Zwierze.cpp */; };
+		1EF134961DCA297200FF7182 /* Pies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF134941DCA297200FF7182 /* Pies.cpp */; };
+		1EF7F5D01DCA99D0007B8894 /* Kot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7F5CE1DCA99D0007B8894 /* Kot.cpp */; };
+		1EF7F5D31DCA9A24007B8894 /* Kaczka.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7F5D11DCA9A24007B8894 /* Kaczka.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		1E55A6311DC7C08900E559E3 /* lab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab2; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E55A6341DC7C08900E559E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1E55A63B1DC7C0DB00E559E3 /* Stado.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stado.cpp; sourceTree = "<group>"; };
+		1E55A63C1DC7C0DB00E559E3 /* Stado.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 8; lastKnownFileType = sourcecode.cpp.h; path = Stado.hpp; sourceTree = "<group>"; tabWidth = 8; };
+		1EF134911DCA1E8200FF7182 /* Zwierze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zwierze.cpp; sourceTree = "<group>"; };
+		1EF134921DCA1E8200FF7182 /* Zwierze.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Zwierze.hpp; sourceTree = "<group>"; };
+		1EF134941DCA297200FF7182 /* Pies.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pies.cpp; sourceTree = "<group>"; };
+		1EF134951DCA297200FF7182 /* Pies.hpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 8; lastKnownFileType = sourcecode.cpp.h; path = Pies.hpp; sourceTree = "<group>"; tabWidth = 8; };
+		1EF7F5CE1DCA99D0007B8894 /* Kot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kot.cpp; sourceTree = "<group>"; };
+		1EF7F5CF1DCA99D0007B8894 /* Kot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kot.hpp; sourceTree = "<group>"; };
+		1EF7F5D11DCA9A24007B8894 /* Kaczka.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kaczka.cpp; sourceTree = "<group>"; };
+		1EF7F5D21DCA9A24007B8894 /* Kaczka.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kaczka.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +72,17 @@
 		1E55A6331DC7C08900E559E3 /* lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				1EF134911DCA1E8200FF7182 /* Zwierze.cpp */,
+				1EF134921DCA1E8200FF7182 /* Zwierze.hpp */,
+				1EF134941DCA297200FF7182 /* Pies.cpp */,
+				1EF134951DCA297200FF7182 /* Pies.hpp */,
+				1EF7F5CE1DCA99D0007B8894 /* Kot.cpp */,
+				1EF7F5CF1DCA99D0007B8894 /* Kot.hpp */,
+				1EF7F5D11DCA9A24007B8894 /* Kaczka.cpp */,
+				1EF7F5D21DCA9A24007B8894 /* Kaczka.hpp */,
 				1E55A6341DC7C08900E559E3 /* main.cpp */,
+				1E55A63B1DC7C0DB00E559E3 /* Stado.cpp */,
+				1E55A63C1DC7C0DB00E559E3 /* Stado.hpp */,
 			);
 			path = lab2;
 			sourceTree = "<group>";
@@ -120,6 +145,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E55A6351DC7C08900E559E3 /* main.cpp in Sources */,
+				1EF134931DCA1E8200FF7182 /* Zwierze.cpp in Sources */,
+				1EF7F5D01DCA99D0007B8894 /* Kot.cpp in Sources */,
+				1EF134961DCA297200FF7182 /* Pies.cpp in Sources */,
+				1EF7F5D31DCA9A24007B8894 /* Kaczka.cpp in Sources */,
+				1E55A63D1DC7C0DB00E559E3 /* Stado.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +276,7 @@
 				1E55A63A1DC7C08900E559E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
